@@ -7,7 +7,18 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^22.1.4"
+    "jest": "^21.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "mapCoverage": true,
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
   },
   "dependencies": {
     "delay": "^2.0.0"
